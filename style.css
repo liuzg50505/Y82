@@ -1,0 +1,458 @@
+.main {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.banner {
+    background-image: url("./images/banner.png");
+    background-size: cover;
+    height: 900px;
+    position: relative;
+}
+
+.banner .logo {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 24px;
+    height: 40px;
+    background-image: url("./images/logo.png");
+    background-size: cover;
+}
+
+.banner .nav {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.banner .nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 5px;
+
+}
+
+.banner .nav a:hover,
+.banner .nav a:active,
+.banner .nav a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.banner .title-area {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 420px;
+    text-align: center;
+}
+
+.banner .title {
+    font-family: "Times New Roman", serif;
+    font-size: 80px;
+    color: white;
+}
+
+.read {
+    width: 64px;
+    height: 64px;
+}
+
+.read-more {
+    margin-top: 20px;
+}
+
+.read-more a {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 5px;
+
+}
+
+.read-more a:hover,
+.read-more a:active,
+.read-more a:visited {
+    color: white;
+}
+
+.article {
+    font-family: "Times New Roman", serif;
+    display: table;
+}
+
+.article .left {
+    display: table-cell;
+    width: 50%;
+    margin-right: 0;
+    background-color: #0E1E20;
+}
+
+.article .right {
+    display: table-cell;
+    width: 50%;
+    margin-right: 0;
+    background-color: #00AD1F;
+}
+
+.article .left .nav {
+    text-align: right;
+    margin-top: 20px;
+    padding-right: 40px;
+}
+
+.article .left .nav a {
+    color: #3AAA3A;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 5px;
+
+}
+
+.article .left .nav:hover,
+.article .left .nav:active,
+.article .left .nav:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.article .left .title {
+    margin-top: 30px;
+    margin-bottom: 80px;
+    color: white;
+    font-size: 30px;
+    position: relative
+}
+
+.article .left .title .sub1 {
+    margin-left: 100px
+}
+
+.article .left .title .sub1 .sub1-symbol {
+    position: relative;
+    display: inline;
+}
+
+.article .left .title .sub1 .sub1-symbol .symbol {
+    color: #00AD1F;
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    font-size: 60px;
+    font-weight: bolder;
+    z-index: 0;
+}
+
+.map1 {
+    width: 100%;
+    object-fit: contain;
+}
+
+.exploitation {
+    font-size: 27px;
+    color: white;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.exploitation-part-left {
+    color: white;
+    margin-left: 30px;
+}
+
+.exploitation-part-left .number {
+    float: left;
+    margin-right: 10px;
+    color: #3AAA3A;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.exploitation-part-left-title {
+    float: left;
+    width: 180px;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.exploitation-part-left-desc {
+    float: left;
+    width: 360px;
+    padding-top: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 12px;
+}
+
+
+.exploitation-part-right {
+    color: white;
+    margin-left: 30px;
+}
+
+.exploitation-part-right .number {
+    float: left;
+    margin-left: 10px;
+    color: #3AAA3A;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.exploitation-part-right-title {
+    float: left;
+    width: 180px;
+    padding-top: 20px;
+    font-size: 14px;
+    text-align: right;
+}
+
+.exploitation-part-right-desc {
+    float: left;
+    width: 360px;
+    padding-top: 20px;
+    text-align: right;
+    font-size: 12px;
+}
+
+.history-title {
+    font-size: 30px;
+}
+
+.history-title-line {
+    border: 1px solid #3AAA3A;
+    width: 190px;
+    margin-bottom: 5px;
+}
+
+.traditional-title {
+    font-size: 22px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.sugar-title {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.rum-title {
+    text-align: right;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.article .left .nav-bottom {
+    margin-top: 20px;
+}
+
+.article .left .nav-bottom a {
+    color: #3AAA3A;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 5px;
+
+}
+
+.article .left .nav-bottom:hover,
+.article .left .nav-bottom:active,
+.article .left .nav-bottom:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.article .left .title {
+    margin-top: 30px;
+    margin-bottom: 80px;
+    color: white;
+    font-size: 30px;
+    position: relative
+}
+
+.article .right .nav {
+    text-align: right;
+    margin-top: 40px;
+}
+
+.article .right .nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+.article .right .container {
+    margin: 0 90px 0 40px;
+}
+
+.first-letter {
+    float: left;
+    font-size: 3em;
+    line-height: 1;
+    margin-right: 0.1em;
+}
+
+.article .left .container {
+    text-align: justify;
+    text-justify: inter-word;
+    margin-left: 100px;
+    margin-right: 30px;
+    color: white;
+    font-size: 11px;
+}
+
+.article .right {
+    text-align: justify;
+    text-justify: inter-word;
+    color: black;
+    font-size: 11px;
+}
+
+.figure {
+    text-align: center;
+}
+
+.figure-text {
+    font-size: 8px;
+    text-align: center;
+}
+
+.col1-2 {
+    float: left;
+    width: 48%;
+    margin-right: 2%;
+}
+
+.col2-2 {
+    float: right;
+    width: 48%;
+    margin-left: 2%;
+}
+
+.row:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.col1-3 {
+    float: left;
+    width: 40%;
+    margin-right: 2%;
+}
+
+.col2-3 {
+    float: left;
+    width: 55%;
+    margin-right: 2%;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.three-col {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+
+.challenge-title {
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+    margin-top: 20px;
+}
+
+.promotion-title {
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.promotion-sub-title {
+    font-weight: bold;
+    font-size: 13px;
+    text-align: right;
+    margin-top: 5px;
+}
+
+.promoting-title {
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 60px;
+}
+
+.century-title {
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    margin: 20px 0;
+    font-weight: bolder;
+}
+
+.advantage-title {
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+.advantage-sub-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.article .right .nav-bottom {
+    text-align: left;
+    margin-top: 40px;
+    padding-left: 40px;
+}
+
+.article .right .nav-bottom a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+
+.resource {
+    background-image: url("./images/footer.png");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-size: 11px;
+}
+
+.resource-title {
+    font-size: 22px;
+}
+
+.footer {
+    background-color: #3AAA3A;
+    color: white;
+    font-size: 18px;
+}
